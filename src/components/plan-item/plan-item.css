@@ -1,0 +1,10 @@
+.plan-item {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.text-item {
+  flex: 1;
+  border-bottom: 1px solid #01B3ED;
+}

@@ -1,0 +1,26 @@
+.day-item {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #01B3ED;
+  background-color: #fff;
+  font-size: 36px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
+.day-item:hover {
+  background-color: #01B3ED;
+}
+.day-item:active {
+  transform: scale(1.1);
+}
+.month-active {
+  color: #000;
+}
+.month-unactive {
+  color: #CAC8C8;
+}
+.day-today {
+  background-color: #B34E7E;
+}
